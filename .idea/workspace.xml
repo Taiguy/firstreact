@@ -1,11 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3067bd7-2778-441c-8903-01e89cd908c9" name="Default Changelist" comment="" />
+    <list default="true" id="d3067bd7-2778-441c-8903-01e89cd908c9" name="Default Changelist" comment="Finished TicTacToe">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameBoard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameCel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameInterface.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameMessage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameTitle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -19,7 +40,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -33,14 +56,23 @@
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
+      <command value="start" />
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Debug Application" />
+      <item itemvalue="npm.npm start" />
+      <item itemvalue="npm.start" />
+    </list>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -64,17 +96,90 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579644669349</updated>
-      <workItem from="1579644671274" duration="386000" />
+      <workItem from="1579644671274" duration="1342000" />
+      <workItem from="1579647938636" duration="227000" />
+      <workItem from="1579905412983" duration="2179000" />
+      <workItem from="1580238510928" duration="33171000" />
+      <workItem from="1580357253250" duration="31000" />
+      <workItem from="1580506968926" duration="6728000" />
+      <workItem from="1580548596911" duration="87000" />
+      <workItem from="1580842891876" duration="260000" />
     </task>
+    <task id="LOCAL-00001" summary="Very first commit sewer slide">
+      <created>1579645389093</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579645389093</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Very first commit sewer slide" />
+    <MESSAGE value="Finished TicTacToe" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished TicTacToe" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="221" y="59" key="SettingsEditor" timestamp="1579645060474">
+    <state x="223" y="92" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580241961553">
       <screen x="0" y="23" width="1440" height="795" />
     </state>
+    <state x="223" y="92" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.795@0.23.1440.795" timestamp="1580241961553" />
+    <state x="303" y="23" key="CommitChangelistDialog2" timestamp="1580842944425">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state x="303" y="23" key="CommitChangelistDialog2/0.23.1440.795@0.23.1440.795" timestamp="1580842944425" />
+    <state width="1324" height="190" key="GridCell.Tab.0.bottom" timestamp="1580843076433">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state width="1324" height="190" key="GridCell.Tab.0.bottom/0.23.1440.795/1440.-720.1920.1057@0.23.1440.795" timestamp="1580523870108" />
+    <state width="1324" height="190" key="GridCell.Tab.0.bottom/0.23.1440.795/1440.-720.1920.1057@1440.-720.1920.1057" timestamp="1580547572410" />
+    <state width="1324" height="190" key="GridCell.Tab.0.bottom/0.23.1440.795@0.23.1440.795" timestamp="1580843076433" />
+    <state width="1324" height="190" key="GridCell.Tab.0.center" timestamp="1580843076432">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state width="1324" height="190" key="GridCell.Tab.0.center/0.23.1440.795/1440.-720.1920.1057@0.23.1440.795" timestamp="1580523870107" />
+    <state width="1324" height="190" key="GridCell.Tab.0.center/0.23.1440.795/1440.-720.1920.1057@1440.-720.1920.1057" timestamp="1580547572410" />
+    <state width="1324" height="190" key="GridCell.Tab.0.center/0.23.1440.795@0.23.1440.795" timestamp="1580843076432" />
+    <state width="1324" height="190" key="GridCell.Tab.0.left" timestamp="1580843076431">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state width="1324" height="190" key="GridCell.Tab.0.left/0.23.1440.795/1440.-720.1920.1057@0.23.1440.795" timestamp="1580523870106" />
+    <state width="1324" height="190" key="GridCell.Tab.0.left/0.23.1440.795/1440.-720.1920.1057@1440.-720.1920.1057" timestamp="1580547572410" />
+    <state width="1324" height="190" key="GridCell.Tab.0.left/0.23.1440.795@0.23.1440.795" timestamp="1580843076431" />
+    <state width="1324" height="190" key="GridCell.Tab.0.right" timestamp="1580843076433">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state width="1324" height="190" key="GridCell.Tab.0.right/0.23.1440.795/1440.-720.1920.1057@0.23.1440.795" timestamp="1580523870107" />
+    <state width="1324" height="190" key="GridCell.Tab.0.right/0.23.1440.795/1440.-720.1920.1057@1440.-720.1920.1057" timestamp="1580547572410" />
+    <state width="1324" height="190" key="GridCell.Tab.0.right/0.23.1440.795@0.23.1440.795" timestamp="1580843076433" />
+    <state x="348" y="78" key="SettingsEditor" timestamp="1580288574478">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state x="348" y="78" key="SettingsEditor/0.23.1440.795/1440.-720.1920.1057@0.23.1440.795" timestamp="1580288574478" />
     <state x="221" y="59" key="SettingsEditor/0.23.1440.795@0.23.1440.795" timestamp="1579645060474" />
+    <state x="320" y="160" key="Vcs.Push.Dialog.v2" timestamp="1579645421079">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state x="320" y="160" key="Vcs.Push.Dialog.v2/0.23.1440.795@0.23.1440.795" timestamp="1579645421079" />
+    <state x="385" y="142" width="670" height="676" key="search.everywhere.popup" timestamp="1580288451032">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state x="385" y="142" width="670" height="676" key="search.everywhere.popup/0.23.1440.795/1440.-720.1920.1057@0.23.1440.795" timestamp="1580288451032" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/GameCel.js</url>
+          <line>3</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
