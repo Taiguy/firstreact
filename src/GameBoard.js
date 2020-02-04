@@ -40,7 +40,7 @@ export default class GameBoard extends React.Component{
             this.state.board[2] + this.state.board[5] + this.state.board[8] === "XXX" ||
             this.state.board[0] + this.state.board[4] + this.state.board[8] === "XXX" ||
             this.state.board[2] + this.state.board[4] + this.state.board[6] === "XXX"){
-            this.setState({message: "X Wins"});
+            this.props.onchange("X Wins!");
             return true;
         }else if(
             this.state.board[0] + this.state.board[1] + this.state.board[2] === "OOO" ||
@@ -51,10 +51,10 @@ export default class GameBoard extends React.Component{
             this.state.board[2] + this.state.board[5] + this.state.board[8] === "OOO" ||
             this.state.board[0] + this.state.board[4] + this.state.board[8] === "OOO" ||
             this.state.board[2] + this.state.board[4] + this.state.board[6] === "OOO") {
-            this.setState({message: "O Wins"});
+            this.props.onchange("O Wins!");
             return true;
         }else if(this.counter > 8){
-            this.setState({message: "It's a Tie"});
+            this.props.onchange("It's a Tie");
             return true;
         }else{
             return false;
