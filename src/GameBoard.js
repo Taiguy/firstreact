@@ -5,7 +5,7 @@ export default class GameBoard extends React.Component{
     constructor(props) {
         super(props);
         this.state = {
-            board: ['?', '?', '?', '?', '?', '?', '?', '?', '?'],
+            board: ['?', '?', '?', '?', '?', '?', '?', '?', '?']
         }
         this.counter = 0;
     }
@@ -32,25 +32,25 @@ export default class GameBoard extends React.Component{
 
     checkWin(){
         if(
-            this.state.board[0] + this.state.board[1] + this.state.board[2] === "XXX" ||
-            this.state.board[3] + this.state.board[4] + this.state.board[5] === "XXX" ||
-            this.state.board[6] + this.state.board[7] + this.state.board[8] === "XXX" ||
-            this.state.board[0] + this.state.board[3] + this.state.board[6] === "XXX" ||
-            this.state.board[1] + this.state.board[4] + this.state.board[7] === "XXX" ||
-            this.state.board[2] + this.state.board[5] + this.state.board[8] === "XXX" ||
-            this.state.board[0] + this.state.board[4] + this.state.board[8] === "XXX" ||
-            this.state.board[2] + this.state.board[4] + this.state.board[6] === "XXX"){
+            this.state.board[0]+this.state.board[1]+this.state.board[2] === "XXX" ||
+            this.state.board[3]+this.state.board[4]+this.state.board[5] === "XXX" ||
+            this.state.board[6]+this.state.board[7]+this.state.board[8] === "XXX" ||
+            this.state.board[0]+this.state.board[3]+this.state.board[6] === "XXX" ||
+            this.state.board[1]+this.state.board[4]+this.state.board[7] === "XXX" ||
+            this.state.board[2]+this.state.board[5]+this.state.board[8] === "XXX" ||
+            this.state.board[0]+this.state.board[4]+this.state.board[8] === "XXX" ||
+            this.state.board[2]+this.state.board[4]+this.state.board[6] === "XXX"){
             this.props.onchange("X Wins!");
             return true;
         }else if(
-            this.state.board[0] + this.state.board[1] + this.state.board[2] === "OOO" ||
-            this.state.board[3] + this.state.board[4] + this.state.board[5] === "OOO" ||
-            this.state.board[6] + this.state.board[7] + this.state.board[8] === "OOO" ||
-            this.state.board[0] + this.state.board[3] + this.state.board[6] === "OOO" ||
-            this.state.board[1] + this.state.board[4] + this.state.board[7] === "OOO" ||
-            this.state.board[2] + this.state.board[5] + this.state.board[8] === "OOO" ||
-            this.state.board[0] + this.state.board[4] + this.state.board[8] === "OOO" ||
-            this.state.board[2] + this.state.board[4] + this.state.board[6] === "OOO") {
+            this.state.board[0]+this.state.board[1]+this.state.board[2] === "OOO" ||
+            this.state.board[3]+this.state.board[4]+this.state.board[5] === "OOO" ||
+            this.state.board[6]+this.state.board[7]+this.state.board[8] === "OOO" ||
+            this.state.board[0]+this.state.board[3]+this.state.board[6] === "OOO" ||
+            this.state.board[1]+this.state.board[4]+this.state.board[7] === "OOO" ||
+            this.state.board[2]+this.state.board[5]+this.state.board[8] === "OOO" ||
+            this.state.board[0]+this.state.board[4]+this.state.board[8] === "OOO" ||
+            this.state.board[2]+this.state.board[4]+this.state.board[6] === "OOO") {
             this.props.onchange("O Wins!");
             return true;
         }else if(this.counter > 8){

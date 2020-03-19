@@ -1,13 +1,16 @@
 import React from 'react';
 
 export default class GameCel extends React.Component{
+    constructor(props) {
+        super(props);
+    }
     handleClick = () =>{
         this.props.onChange(this.props.i);
     }
 
     render(){
         let cursor = "pointer";
-        if(this.props.value != '?'){
+        if(this.props.value !== '?'){
             cursor = "default";
         }
         return(

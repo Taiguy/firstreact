@@ -9,7 +9,7 @@ export default class Game extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            message:"X's turn"
+            message:"X's Turn"
         }
     }
     setMessage = (e) =>{
